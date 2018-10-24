@@ -1,0 +1,16 @@
+.list {
+  list-style: none;
+}
+
+.list__item {
+  display: inline-block;
+}
+
+.list__item:not(:first-child) {
+  margin-left: 1.5rem;
+}
+
+.list .active {
+  color: #333;
+  font-weight: 600;
+}

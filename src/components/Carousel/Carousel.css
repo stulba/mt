@@ -1,0 +1,86 @@
+.carousel {
+  display: flex;
+}
+
+.carousel__close,
+.carousel__next,
+.carousel__prev {
+  position: absolute;
+
+  width: 42px;
+  height: 42px;
+  z-index: 1000;
+  color: #848484;
+  font-size: 2.25rem;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+
+.carousel__close {
+  display: none;
+}
+
+.carousel__next {
+  width: 62px;
+  height: 62px;
+  top: 41%;
+  right: 0.5rem;
+  background: url('../../images/right-chevron.svg') no-repeat center;
+  background-size: 32px;
+}
+
+.carousel__prev {
+  width: 62px;
+  height: 62px;
+  top: 41%;
+  left: 0.5rem;
+  background: url('../../images/left-chevron.svg') no-repeat center;
+  background-size: 2rem;
+}
+
+.carousel__frames {
+  display: none;
+}
+
+.carousel img {
+  width: 100%;
+}
+
+.carousel__main {
+  position: relative;
+  width: 100%;
+}
+
+.carousel__frame {
+  margin-top: 1.5rem;
+  border-left: 2px solid transparent;
+}
+
+.carousel__frame--active img {
+  box-shadow: 0 0 24px #aaa;
+  border-left: 2px solid #68cfff;
+}
+
+@media screen and (min-width: 600px) {
+  .carousel__close {
+    display: block;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: url('../../images/close.svg') no-repeat center;
+    background-size: 2rem;
+  }
+
+  .carousel__main {
+    width: 87.64%;
+  }
+
+  .carousel__frames {
+    display: flex;
+    flex-direction: column;
+    width: 13.32%;
+    max-width: 100px;
+    order: -1;
+    padding-right: 1.5rem;
+  }
+}

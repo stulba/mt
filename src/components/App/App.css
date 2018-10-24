@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  color: #444;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+}
+
+textarea,
+input {
+  width: 100%;
+  font-family: inherit;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.heading {
+  margin: 1.5rem 0;
+}
+
+.main {
+  margin-top: 3rem;
+}
+
+.u-center {
+  text-align: center;
+}
+
+.login,
+.register {
+  width: 320px;
+  padding: 1.5rem;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: #f6f6f6;
+}
+
+.login__form,
+.register__form {
+  margin-bottom: 1.5rem;
+}
+
+.error-message {
+  color: #d3003f;
+  background-color: #f5e7e9;
+  padding: 0.25rem 0.5rem;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.f {
+  display: flex;
+}

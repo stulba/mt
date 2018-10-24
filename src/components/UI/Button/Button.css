@@ -1,0 +1,40 @@
+.btn {
+  display: inline-block;
+  color: #333;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border: 0;
+  background-color: #ddd;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #eee;
+}
+
+.btn--small {
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  background-color: #eee;
+}
+
+.btn--primary {
+  color: #fff;
+  background-color: #5bc8fa;
+}
+
+.btn--primary:hover {
+  background-color: #5bc8fa;
+}
+
+.btn--warning {
+  color: #fff;
+  background-color: rgb(224, 77, 32);
+}
+
+.btn--warning:hover {
+  background-color: rgb(224, 77, 32);
+}

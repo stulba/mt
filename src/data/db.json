@@ -1,0 +1,307 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Siarhei Stulba",
+      "email": "siarhei@mail.com",
+      "password": 123456,
+      "avatar": "https://d3iw72m71ie81c.cloudfront.net/marvell.png"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Connor",
+      "email": "sarah@mail.com",
+      "password": 654321,
+      "avatar": "https://images.unsplash.com/photo-1476493279419-b785d41e38d8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=61eaea85f1aa3d065400179c78163f15"
+    }
+  ],
+  "categories": {
+    "women": {
+      "id": 5914,
+      "name": "Women",
+      "url": "/women",
+      "sub": [
+        {
+          "id": 6924,
+          "name": "Clothing",
+          "sub": [
+            {
+              "id": 7934,
+              "name": "Dresses",
+              "url": "/women/dresses"
+            }
+          ]
+        },
+        {
+          "id": 6925,
+          "name": "Shoes",
+          "sub": [
+            {
+              "id": 7935,
+              "name": "Boots",
+              "url": "/women/boots"
+            }
+          ]
+        },
+        {
+          "id": 6926,
+          "name": "Accessories",
+          "sub": [
+            {
+              "id": 9009008,
+              "name": "Belts",
+              "url": "/men/belts"
+            },
+            {
+              "id": 898090,
+              "name": "Hats",
+              "url": "/men/hats"
+            },
+            {
+              "id": 7936,
+              "name": "Wallets",
+              "url": "/women/wallets"
+            }
+          ]
+        }
+      ]
+    },
+    "men": {
+      "id": 5916,
+      "name": "Men",
+      "url": "/men",
+      "sub": [
+        {
+          "id": 6729,
+          "name": "Clothing",
+          "sub": [
+            {
+              "id": 7739,
+              "name": "Jackets",
+              "url": "/men/jackets"
+            },
+            {
+              "id": 2139,
+              "name": "Jeans",
+              "url": "/men/jeans"
+            },
+            {
+              "id": 99022,
+              "name": "Shirts",
+              "url": "/men/shirts"
+            },
+            {
+              "id": 29329,
+              "name": "Shorts",
+              "url": "/men/shorts"
+            }
+          ]
+        },
+        {
+          "id": 67232,
+          "name": "Shoes",
+          "sub": [
+            {
+              "id": 72332,
+              "name": "Boots",
+              "url": "/men/boots"
+            },
+            {
+              "id": 132,
+              "name": "Slippers",
+              "url": "/men/slippers"
+            },
+            {
+              "id": 1302,
+              "name": "Sneakers",
+              "url": "/men/sneakers"
+            }
+          ]
+        },
+        {
+          "id": 33099,
+          "name": "Accessories",
+          "sub": [
+            {
+              "id": 90909,
+              "name": "Belts",
+              "url": "/men/belts"
+            },
+            {
+              "id": 78780,
+              "name": "Hats",
+              "url": "/men/hats"
+            },
+            {
+              "id": 780122,
+              "name": "Sunglasses",
+              "url": "/men/sunglasses"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "products": [
+    {
+      "id": "af0028da-857f-483b-9383-44f022c370a3",
+      "gender": "Women",
+      "category": "Clothing",
+      "subCategory": "Dresses",
+      "created_at": "2018-10-21T20:51:25.507Z",
+      "brand": "COLLUSION",
+      "title": "Metallic Scoop Back Dress",
+      "color": "Rust",
+      "details": "A metallic knit dress featuring a striped design, round neck, long sleeves, padded shoulders, a low scoop back, and bodycon silhouette.",
+      "price": 14,
+      "quantity": 67,
+      "sizes": ["S", "M", "L"],
+      "assets": {
+        "main": "https://www.forever21.com/images/default_330/00334049-02.jpg",
+        "gallery": [
+          {
+            "thumbnail": "https://www.forever21.com/images/1_front_58/00334049-02.jpg",
+            "full": "https://www.forever21.com/images/1_front_750/00334049-02.jpg"
+          },
+          {
+            "thumbnail": "https://www.forever21.com/images/2_side_58/00334049-02.jpg",
+            "full": "https://www.forever21.com/images/2_side_750/00334049-02.jpg"
+          },
+          {
+            "thumbnail": "https://www.forever21.com/images/4_full_58/00334049-02.jpg",
+            "full": "https://www.forever21.com/images/4_full_750/00334049-02.jpg"
+          }
+        ]
+      },
+      "url": "/collusion/metallic-scoop-back-dress/af0028da-857f-483b-9383-44f022c370a3"
+    },
+    {
+      "id": "0022e221-6bfb-4bb1-a3c5-b0923fea77c4",
+      "gender": "Women",
+      "category": "Clothing",
+      "subCategory": "Dresses",
+      "created_at": "2018-10-22T15:06:33.773Z",
+      "brand": "PrettyLittleThing",
+      "title": "Knit Sweater Dress",
+      "color": "Brown",
+      "details": "Style Deals - This chunky ribbed knit sweater dress has a mock neck, dropped shoulders, long sleeves, and a mini length.",
+      "price": 22.99,
+      "quantity": 77,
+      "sizes": ["S", "M", "L"],
+      "assets": {
+        "main": "https://www.forever21.com/images/default_330/00301505-05.jpg",
+        "gallery": [
+          {
+            "thumbnail": "https://www.forever21.com/images/1_front_58/00301505-05.jpg",
+            "full": "https://www.forever21.com/images/1_front_750/00301505-05.jpg"
+          },
+          {
+            "thumbnail": "https://www.forever21.com/images/2_side_58/00301505-05.jpg",
+            "full": "https://www.forever21.com/images/2_side_750/00301505-05.jpg"
+          },
+          {
+            "thumbnail": "https://www.forever21.com/images/4_full_58/00301505-05.jpg",
+            "full": "https://www.forever21.com/images/4_full_750/00301505-05.jpg"
+          }
+        ]
+      },
+      "url": "/prettylittlething/knit-sweater-dress/0022e221-6bfb-4bb1-a3c5-b0923fea77c4"
+    },
+    {
+      "id": "71284389-47df-4c92-8530-b96faadb6344",
+      "gender": "Women",
+      "category": "Clothing",
+      "subCategory": "Dresses",
+      "created_at": "2018-10-22T16:33:26.931Z",
+      "brand": "Sweet Sixteen",
+      "title": "Metallic Ribbed Bodycon Dress",
+      "color": "Mauve",
+      "details": "Style Deals - This ribbed knit dress features allover metallic yarn accents, giving it a glittery appeal, and also has a mock neck, short sleeves, mini length, and a bodycon silhouette.",
+      "price": 19.9,
+      "quantity": 89,
+      "sizes": ["S", "M", "L"],
+      "assets": {
+        "main": "https://www.forever21.com/images/3_back_330/00309551-04.jpg",
+        "gallery": [
+          {
+            "thumbnail": "https://www.forever21.com/images/1_front_58/00309551-04.jpg",
+            "full": "https://www.forever21.com/images/1_front_750/00309551-04.jpg"
+          },
+          {
+            "thumbnail": "https://www.forever21.com/images/2_side_58/00309551-04.jpg",
+            "full": "https://www.forever21.com/images/2_side_750/00309551-04.jpg"
+          },
+          {
+            "thumbnail": "https://www.forever21.com/images/4_full_58/00309551-04.jpg",
+            "full": "https://www.forever21.com/images/4_full_750/00309551-04.jpg"
+          }
+        ]
+      },
+      "url": "/sweet-sixteen/metallic-ribbed-bodycon-dress/71284389-47df-4c92-8530-b96faadb6344"
+    },
+    {
+      "id": "d7ace62a-2f2d-46a7-8d53-fc66db2d5f8f",
+      "gender": "Women",
+      "category": "Clothing",
+      "subCategory": "Dresses",
+      "created_at": "2018-10-22T16:44:32.060Z",
+      "brand": "Akasa",
+      "title": "Ribbed Mini Dress",
+      "color": "Black",
+      "details": "A stretch ribbed-knit mini dress featuring a scoop neck, long sleeves, lace-up details, and a bodycon fit. This is an independent brand and not a Forever 21 branded item.",
+      "price": 35,
+      "quantity": 90,
+      "sizes": ["S", "M", "L"],
+      "assets": {
+        "main": "https://www.forever21.com/images/3_back_330/00316361-01.jpg",
+        "gallery": [
+          {
+            "thumbnail": "https://www.forever21.com/images/1_front_58/00316361-01.jpg",
+            "full": "https://www.forever21.com/images/1_front_750/00316361-01.jpg"
+          },
+          {
+            "thumbnail": "https://www.forever21.com/images/2_side_58/00316361-01.jpg",
+            "full": "https://www.forever21.com/images/2_side_750/00316361-01.jpg"
+          },
+          {
+            "thumbnail": "https://www.forever21.com/images/4_full_58/00316361-01.jpg",
+            "full": "https://www.forever21.com/images/4_full_750/00316361-01.jpg"
+          }
+        ]
+      },
+      "url": "/akasa/ribbed-mini-dress/d7ace62a-2f2d-46a7-8d53-fc66db2d5f8f"
+    },
+    {
+      "id": "c0ab1b51-05c1-426c-b296-b55d2109de6f",
+      "gender": "Women",
+      "category": "Clothing",
+      "subCategory": "Dresses",
+      "created_at": "2018-10-22T16:51:09.158Z",
+      "brand": "Aratta",
+      "title": "Retro Metallic Sweater Dress",
+      "color": "Amber",
+      "details": "A chic sweater dress knit into a retro geo pattern accented with metallic threads, and featuring a turtleneck, long raglan balloon sleeves, mini length, and a shift silhouette.",
+      "price": 34,
+      "quantity": 24,
+      "sizes": ["S", "M", "L"],
+      "assets": {
+        "main": "https://www.forever21.com/images/default_330/00300295-01.jpg",
+        "gallery": [
+          {
+            "thumbnail": "https://www.forever21.com/images/1_front_58/00300295-01.jpg",
+            "full": "https://www.forever21.com/images/1_front_750/00300295-01.jpg"
+          },
+          {
+            "thumbnail": "https://www.forever21.com/images/2_side_58/00300295-01.jpg",
+            "full": "https://www.forever21.com/images/2_side_750/00300295-01.jpg"
+          },
+          {
+            "thumbnail": "https://www.forever21.com/images/4_full_58/00300295-01.jpg",
+            "full": "https://www.forever21.com/images/4_full_750/00300295-01.jpg"
+          }
+        ]
+      },
+      "url": "/aratta/retro-metallic-sweater-dress/c0ab1b51-05c1-426c-b296-b55d2109de6f"
+    }
+  ]
+}

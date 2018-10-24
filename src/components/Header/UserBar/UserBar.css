@@ -1,0 +1,75 @@
+.user-bar {
+  display: flex;
+  font-size: 1.25rem;
+}
+
+.user-bar__link:hover {
+  color: #eee;
+}
+
+.user-bar__item {
+  position: relative;
+}
+
+.user-bar__item:not(:first-child) {
+  margin-left: 1.5rem;
+}
+
+.user-bar__avatar {
+  position: relative;
+  z-index: 1000;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: box-shadow 0.15s;
+}
+
+.user-bar__avatar--active {
+  border-color: #fff;
+}
+
+.user-dd {
+  width: 100%;
+}
+
+.user-dd__content {
+  width: 200px;
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+  z-index: 800;
+  background-color: #fff;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-top-right-radius: 4px;
+  opacity: 0;
+  transform: translateY(0);
+  transition: visibility 0.15s, opacity 0.15s, transform 0.15s;
+}
+
+.user-dd__list {
+  list-style: none;
+  padding: 1.5rem;
+}
+
+.user-dd__item + .user-dd__item {
+  margin-top: 0.5rem;
+}
+
+.user-dd--open .user-dd__content {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.user-features {
+  padding: 1.5rem;
+  background-color: #f5f5f5;
+}
+
+.user-features__name {
+  font-weight: 600;
+}
