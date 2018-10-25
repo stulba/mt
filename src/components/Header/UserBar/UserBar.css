@@ -1,6 +1,5 @@
 .user-bar {
   display: flex;
-  font-size: 1.25rem;
 }
 
 .user-bar__link:hover {

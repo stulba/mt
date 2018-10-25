@@ -1,5 +1,4 @@
 import React from 'react';
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './Cart.css';
 import CartItem from './CartItem';
 
@@ -18,22 +17,14 @@ const CartInfo = ({
       <h1 className="cart__header">My Cart</h1>
 
       <div className="cart__content">
-        <TransitionGroup component={null}>
-          {items.map(item => (
-            <CSSTransition
-              key={item.id}
-              timeout={{ enter: 2000, exit: 2000 }}
-              classNames="example"
-            >
-              <CartItem
-                item={item}
-                onDecreaseAmount={onDecreaseAmount}
-                onIncreaseAmount={onIncreaseAmount}
-                onDeleteItem={onDeleteItem}
-              />
-            </CSSTransition>
-          ))}
-        </TransitionGroup>
+        {items.map(item => (
+          <CartItem
+            item={item}
+            onDecreaseAmount={onDecreaseAmount}
+            onIncreaseAmount={onIncreaseAmount}
+            onDeleteItem={onDeleteItem}
+          />
+        ))}
       </div>
 
       <div className="cart-subtotal">

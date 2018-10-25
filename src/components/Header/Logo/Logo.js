@@ -5,7 +5,7 @@ const Logo = ({ className }) => {
   const styles = className ? ['logo', className] : ['logo'];
   return (
     <Link className={styles.join(' ')} to="/">
-      C
+      M
     </Link>
   );
 };

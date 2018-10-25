@@ -14,6 +14,7 @@ import CartContainer from '../../containers/CartContainer';
 import UserProfileContainer from '../../containers/UserProfileContainer';
 import ProductsListContainer from '../../containers/ProductsListContainer';
 import ProductInfoContainer from '../../containers/ProductInfoContainer';
+import SearchResults from '../../containers/SearchResults';
 
 class App extends Component {
   componentDidMount = () => {
@@ -35,6 +36,7 @@ class App extends Component {
                 path="/dashboard"
                 component={UserProfileContainer}
               />
+              <Route path="/search" component={SearchResults} />
               <Route path="/login" component={Login} />
               <Route path="/register" component={Register} />
               <Route path="/cart" component={CartContainer} />
@@ -46,7 +48,6 @@ class App extends Component {
                 path="/:gender/:category"
                 component={ProductsListContainer}
               />
-              {/* <Route path="/:gender" component={ShowcaseContainer} /> */}
             </Switch>
           </Container>
         </div>

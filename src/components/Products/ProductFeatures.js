@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function ProductFeatures({ assets, title, price, url }) {
+  console.log(assets, title, price, url);
   return (
     <div className="product-features">
       <Link to={url}>

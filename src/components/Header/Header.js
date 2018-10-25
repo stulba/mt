@@ -136,7 +136,9 @@ class Header extends Component {
       <header className="header">
         <div className="header__main">
           <div className="container">
-            <div className="header__group">
+            <div className="header__menu">
+              <button className="burger-menu header__burger-menu" />
+
               <Logo className="header__logo" />
 
               <Nav
@@ -145,11 +147,11 @@ class Header extends Component {
               />
             </div>
 
-            <div className="header__group">
+            <div className="header__search">
               <Search />
             </div>
 
-            <div className="header__group">
+            <div className="header__user-bar">
               <UserBar />
             </div>
           </div>

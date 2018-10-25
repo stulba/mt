@@ -6,8 +6,14 @@ const url = 'http://localhost:3000';
 const Products = {
   url: 'http://localhost:3000/products',
 
+  find(query) {
+    return fetch(`${url}/products?q=${query}`)
+      .then(res => res.json())
+      .catch(err => console.log(err));
+  },
+
   add(product) {
-    fetch(this.url, {
+    return fetch(this.url, {
       method: 'POST',
       headers: {
         Accept: 'application/json',

@@ -33,14 +33,15 @@ function CartItem({ item, onDecreaseAmount, onIncreaseAmount, onDeleteItem }) {
           </p>
         </div>
 
-        <div className="cart-item__actions">
+        <div className="cart-item-actions">
           <button
-            className="cart-item__remove"
+            className="cart-item-actions__trigger cart-item-actions__trigger--remove"
             onClick={() => onDeleteItem(item.id)}
           />
-          <div className="cart-item__action">
-            <span className="cart-iten__quantity">{item.amount}</span>
+          <div className="cart-item-actions__holder">
+            <span className="cart-item-actions__quantity">{item.amount}</span>
             <button
+              className="cart-item-actions__trigger"
               disabled={item.amount === 1}
               onClick={() => onDecreaseAmount(item.id)}
             >
@@ -48,8 +49,13 @@ function CartItem({ item, onDecreaseAmount, onIncreaseAmount, onDeleteItem }) {
             </button>
           </div>
 
-          <div className="cart-item__action">
-            <button onClick={() => onIncreaseAmount(item.id)}>+</button>
+          <div className="cart-item-actions__holder">
+            <button
+              className="cart-item-actions__trigger"
+              onClick={() => onIncreaseAmount(item.id)}
+            >
+              +
+            </button>
           </div>
         </div>
       </div>

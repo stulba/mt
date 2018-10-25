@@ -28,7 +28,8 @@ store.subscribe(
   throttle(() => {
     saveState({
       categories: store.getState().categories,
-      user: store.getState().user
+      user: store.getState().user,
+      cart: store.getState().cart
     });
   }, 1000)
 );
